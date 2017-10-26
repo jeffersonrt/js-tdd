@@ -1,0 +1,18 @@
+root = true
+# Todos os editores
+
+#Todos os arquivos
+[*]
+
+# indentation
+indent_style = space
+indent_size = 2
+
+# Unix-style newlines with a newline ending
+end_of_line = lf
+
+charset = utf-8
+
+#remover espaço final da linha
+trim_trailing_whitespace = true
+insert_final_newline = true
