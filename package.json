@@ -4,6 +4,7 @@
   "description": "Curso de JS com TDD na prática",
   "main": "index.js",
   "scripts": {
+    "lint-fix": "./node_modules/.bin/eslint src/*.js --fix",
     "lint": "./node_modules/.bin/eslint src/*.js ",
     "prepush": "npm run lint",
     "test": "echo \"Error: no test specified\" && exit 1"
